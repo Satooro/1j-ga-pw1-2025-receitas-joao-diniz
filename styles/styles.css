@@ -1,3 +1,8 @@
+body {
+    background-color: #E7B501;
+    margin: 0;
+}
+
 header > img {
     width: 100%;
     height: 250px;
@@ -7,21 +12,40 @@ header {
     width: 100%;
 }
 
-body {
-    background-color: #E7B501;
-    margin: 0;
+nav > ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    padding-inline: 0;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    font-size: 22px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+#item-2 {
+    padding-inline: 150px;
+    border-inline: 2px solid;
 }
 
 main {
-    
     background-color: #FBD503;
     width: 75%;
     margin-inline: auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 18px; /*Desgruda as imagens da borda*/
-    gap: 26px;
+    padding: 26px 0; /* Primeiro valor é TOP BOTTOM, segundo é LEFT RIGHT */
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* X, Y, tamanho_do_borrado */
 }
+
 
 div {
     background-color: #fff;
@@ -29,8 +53,11 @@ div {
     margin-bottom: 18px;
     flex-direction: column;
     width: 30%;
-    border-radius: 8px;
+    border-radius: 8px;   
+}
 
+div:hover {
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.40);
 }
 
 div > h4 {
@@ -38,7 +65,13 @@ div > h4 {
 }
 
 div > img {
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
     width: 100%;
     height: 250px;
+}
+
+footer > p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+    text-align: center;
 }
