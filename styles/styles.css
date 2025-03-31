@@ -53,7 +53,7 @@ main {
 }
 
 
-div {
+main > div {
     background-color: #fff;
     margin-bottom: 18px;
     display: flex;
@@ -65,28 +65,63 @@ div {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
-div:hover {
+main > div:hover {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
-div > h4 {
+main > div > h4 {
     text-align: center;
 }
 
-div > img {
+main > div > img {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     width: 100%;
     height: 80%;
 }
 
-div > img:hover {
+main > div > img:hover {
     width: 105%;
     height: 85%;
     margin-left: -10px;
 }
 /* Fazer um footer bonitinho para atividade de PW */
-footer > p {
+footer {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+}
+
+
+footer > div > p {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
     text-align: center;
+}
+
+footer > div > img {
+    width: 64px;
+    height: 64px;
+}
+
+#footer-banner {
+    width: 25%;
+    height: 350px;
+    margin-inline: 50%;
+}
+
+.teste {
+    background-color: white;
+    padding: 50px;
+}
+
+#facebook {
+    
+}
+
+footer > div {
+    display: block;
+    background-color: #e0be02;
+    width: auto;
 }
