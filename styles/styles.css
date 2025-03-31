@@ -27,7 +27,12 @@ nav > ul > li {
 
 nav > ul > li > a {
     text-decoration: none;
+    text-transform: capitalize;
     color: #000;
+}
+
+nav > ul > li > a:hover{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
 }
 
 #item-2 {
@@ -37,27 +42,31 @@ nav > ul > li > a {
 
 main {
     background-color: #FBD503;
-    width: 75%;
+    width: 70%;
     margin-inline: auto;
     display: flex;
     flex-wrap: wrap;
     padding: 26px 0; /* Primeiro valor é TOP BOTTOM, segundo é LEFT RIGHT */
     justify-content: space-evenly;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* X, Y, tamanho_do_borrado */
+    border-radius: 8px; /* Arredondar os cantos da imagem */
 }
 
 
 div {
     background-color: #fff;
-    display: flex;
     margin-bottom: 18px;
+    display: flex;
     flex-direction: column;
     width: 30%;
-    border-radius: 8px;   
+    border-radius: 8px;
+    height: 33vh;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 div:hover {
-    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.40);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 div > h4 {
@@ -68,9 +77,15 @@ div > img {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     width: 100%;
-    height: 250px;
+    height: 80%;
 }
 
+div > img:hover {
+    width: 105%;
+    height: 85%;
+    margin-left: -10px;
+}
+/* Fazer um footer bonitinho para atividade de PW */
 footer > p {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
     text-align: center;
