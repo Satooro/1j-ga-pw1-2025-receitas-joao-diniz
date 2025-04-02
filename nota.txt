@@ -1,0 +1,16 @@
+Styles:
+text-align: Define o alinhamento do texto.
+margin: Define o espaço externo ao redor de um elemento
+padding: Define o espaço interno entre o conteúdo e as bordas do elemento.
+width: Define a largura de um elemento.
+height: Define a altura de um elemento
+display: Define como o elemento será exibido.
+    - block: ocupa toda a largura disponível.
+    - inline: não quebra linha e ocupa apenas o espaço necessário.
+    - flex: Exibe como um container flexível.
+    - none: Não é exibido.
+justify-content: Usado com display: flex, alinha os itens horizontalmente
+align-items: Usado com display: flex, alinha os itens verticalmente.
+gap: Define o espaço entre itens dentro de containers flexíveis ou grids.
+word-wrap: Controla como o texto será quebrado
+max-width / max-height: Define limites máximos para a largura ou altura

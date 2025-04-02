@@ -85,43 +85,57 @@ main > div > img:hover {
     height: 85%;
     margin-left: -10px;
 }
-/* Fazer um footer bonitinho para atividade de PW */
+
 footer {
-    display: block;
-    justify-content: space-between;
-    width: 100%;
-    height: 500px;
-    flex-direction: column;
-}
-
-
-footer > div > p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
-    text-align: center;
-}
-
-footer > div > img {
-    width: 64px;
-    height: 64px;
+    background-color: #e0be02;
+    padding: 20px 0;
 }
 
 #footer-banner {
-    width: 25%;
-    height: 350px;
-    margin-inline: 50%;
-}
-
-.teste {
-    background-color: white;
-    padding: 50px;
-}
-
-#facebook {
-    
-}
-
-footer > div {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    max-width: 400px;
     display: block;
-    background-color: #e0be02;
-    width: auto;
+    margin: 0 auto;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-esquerda {
+    display: flex;
+    gap: 15px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+#footer-centro {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 150%;
+}
+
+#footer-direita {
+    display: block;
+    gap: 15px;
+    text-align: right;
+    color: #000;
+    padding-right: 150px;
+    word-wrap: break-word;
+}
+
+
+#facebook, #pinterest, #youtube {
+    width: 60px;
+    height: 60px;
+    margin: 0 8px;
+}
+
+#facebook:hover, #pinterest:hover, #youtube:hover {
+    transform: scale(1.5);
+    color: #3b5998;
 }
