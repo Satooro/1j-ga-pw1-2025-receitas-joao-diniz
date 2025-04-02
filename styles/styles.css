@@ -87,23 +87,44 @@ main > div > img:hover {
 }
 
 footer {
-    background-color: #e0be02;
-    padding: 20px 0;
+    display: block;
+    background-color: #e4c200;
+    /* padding: 20px 0; */
+    margin-top: 20px;
 }
 
-#footer-banner {
+#container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-esqtop {
+    width: 750px;
+    margin: 50px
+}
+
+#footer-topcentro {
     width: 100%;
+    padding-left: -200px;
     height: 250px;
     text-align: center;
     max-width: 400px;
     display: block;
     margin: 0 auto;
+    align-items: center;
+}
+
+#footer-topdir {
+    width: 750px;
+    margin: 50px;
 }
 
 #container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 25px;
 }
 
 #footer-esquerda {
@@ -111,12 +132,6 @@ footer {
     gap: 15px;
     text-align: left;
     padding-left: 150px;
-}
-
-#footer-centro {
-    text-align: center;
-    flex-grow: 1;
-    font-size: 150%;
 }
 
 #footer-direita {
@@ -129,13 +144,14 @@ footer {
 }
 
 
-#facebook, #pinterest, #youtube {
+#facebook, #pinterest, #youtube, #instagram, #twitter {
     width: 60px;
     height: 60px;
     margin: 0 8px;
 }
 
-#facebook:hover, #pinterest:hover, #youtube:hover {
+#facebook:hover, #pinterest:hover, #youtube:hover, #instagram:hover, #twitter:hover {
     transform: scale(1.5);
+    background-color: #fff;
     color: #3b5998;
 }
