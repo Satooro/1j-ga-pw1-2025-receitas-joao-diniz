@@ -1,0 +1,52 @@
+main {
+    padding: 32px;
+}
+
+main > div {
+    width: 40%;
+    height: auto;
+    padding-inline: 22px;
+}
+
+#nome-receita {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#nome-autor {
+    width: 100%;
+    text-indent: 24px;
+    margin: 0;
+    padding: 0;
+}
+#foto-receita {
+    width: 100%;
+    margin: 42px 0;
+}
+#foto-receita > img {
+    width: 60%;
+    display: block;
+    margin-inline: auto;
+}
+
+#foto-autor {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 22px;
+}
+
+.titulo-lista {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.detalhes-lista > li {
+    line-height: 34px;
+    font-size: 20px;
+    word-spacing: 8px;
+}
+
+.justificado {
+    text-align: justify;
+}
