@@ -5,7 +5,13 @@ main {
 main > div {
     width: 40%;
     height: auto;
-    padding-inline: 22px;
+}
+
+main > div > ul, ol {
+    padding-left: 34px;
+    width: 85%;
+    display: block;
+    margin-inline: auto;
 }
 
 #nome-receita {
@@ -28,6 +34,8 @@ main > div {
     width: 60%;
     display: block;
     margin-inline: auto;
+    border-radius: 8px;
+    box-shadow: 4px 4px 16px rgb(207, 162, 0);
 }
 
 #foto-autor {
@@ -41,12 +49,20 @@ main > div {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.tempo-de-preparo {
+    margin-left: 32px;
+}
+
 .detalhes-lista > li {
     line-height: 34px;
     font-size: 20px;
-    word-spacing: 8px;
+    word-spacing: 4px;
 }
 
 .justificado {
     text-align: justify;
+}
+
+.separador-itens > li, ol {
+    margin-bottom: 16px;
 }

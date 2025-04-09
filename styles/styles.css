@@ -101,7 +101,7 @@ footer {
 
 #footer-esqtop {
     width: 750px;
-    margin: 50px
+    margin: 50px;
 }
 
 #footer-topcentro {
@@ -153,5 +153,4 @@ footer {
 #facebook:hover, #pinterest:hover, #youtube:hover, #instagram:hover, #twitter:hover {
     transform: scale(1.5);
     background-color: #fff;
-    color: #3b5998;
 }
