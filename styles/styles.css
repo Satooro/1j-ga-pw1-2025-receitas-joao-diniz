@@ -143,6 +143,17 @@ footer {
     word-wrap: break-word;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+#footer-direita > a {
+    text-decoration: overline underline solid;
+    text-decoration-style: double;
+    font-weight: 800;
+    color: #000;
+}
+
 
 #facebook, #pinterest, #youtube, #instagram, #twitter {
     width: 60px;
@@ -152,5 +163,4 @@ footer {
 
 #facebook:hover, #pinterest:hover, #youtube:hover, #instagram:hover, #twitter:hover {
     transform: scale(1.5);
-    background-color: #fff;
 }
